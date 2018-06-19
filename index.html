@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crew Taylor</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.js"></script>
+	<script src="sketch.js"></script>
+	<style type="text/css">
+	body {margin:0; padding:0;} /* remove top and left whitespace */
+	canvas {display:block;}    /* remove scrollbars */
+	canvas:focus {outline:0;} /* remove blue outline around canvas */
+	.fs {position:fixed; bottom:20px; right:20px;}
+	#enter {display:block;}
+	#exit {display:none;}
+	html,body {
+		height: 100%;
+	}
+	body{
+		margin:0;
+		padding:0;
+		color:white;
+		overflow: hidden;
+	}
+	canvas{
+		position:absolute;
+		left:0;
+		top:0;
+		z-index:-1;
+	}
+	*.unselectable {
+   -moz-user-select: none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}
+</style>  
+</head>
+<body>
+	<div class="d-flex justify-content-center h-100">
+		<h1 class="unselectable row align-items-center justify-content-center">Crew Taylor</h1>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
